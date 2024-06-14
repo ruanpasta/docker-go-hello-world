@@ -1,0 +1,9 @@
+#+title: Docker image go hello world
+#+author: Ruan Pasta
+#+date: 2024-06-14
+
+* Container
+
+Access the image docker by tag name or link.
+[[https://hub.docker.com/repository/docker/ruanaugustopasta/fullcycle/general[ruanaugustopasta/fullcycle]]
+
