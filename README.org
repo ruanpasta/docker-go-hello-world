@@ -5,5 +5,5 @@
 * Container
 
 Access the image docker by tag name or link.
-[[https://hub.docker.com/repository/docker/ruanaugustopasta/fullcycle/general][ruanaugustopasta/fullcycle]]
+[[https://hub.docker.com/r/ruanaugustopasta/fullcycle][ruanaugustopasta/fullcycle]]
 
