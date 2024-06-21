@@ -1,8 +1,8 @@
 FROM golang:alpine AS builder
 WORKDIR /app
 COPY . .
-RUN go build -o binary .
+RUN go build -ldflags="-s -w" -o binary .
 
-FROM alpine:latest
+FROM scratch
 COPY --from=builder /app/binary .
 CMD ["./binary"]
